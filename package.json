@@ -1,0 +1,18 @@
+{
+  "name": "ratatouille",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianjenkins94/ratatouille.git"
+  },
+  "author": "Brian Jenkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianjenkins94/ratatouille/issues"
+  },
+  "homepage": "https://github.com/brianjenkins94/ratatouille#readme"
+}
