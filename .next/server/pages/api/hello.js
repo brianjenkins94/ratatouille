@@ -1,1 +1,0 @@
-"use strict";(()=>{var e={};e.id=453,e.ids=[453],e.modules={784:(e,s,r)=>{function a(e,s){s.status(200).json({name:"John Doe"})}r.r(s),r.d(s,{default:()=>a})}};var s=require("../../webpack-api-runtime.js");s.C(e);var r=s(s.s=784);module.exports=r})();
