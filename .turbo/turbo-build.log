@@ -1,0 +1,42 @@
+
+> ratatouille@0.0.0 build
+> next build && next export && npm run postexport
+
+info  - Linting and checking validity of types...
+
+Failed to compile.
+
+./pages/_app.tsx
+1:1  Error: TypeScript will only remove the inline type specifiers which will leave behind a side effect import at runtime. Convert this to a top-level type qualifier to properly remove the entire import.  @typescript-eslint/no-import-type-side-effects
+
+./pages/_document.tsx
+1:16  Error: Member 'Head' of the import declaration should be sorted alphabetically.  sort-imports
+1:46  Error: Strings must use doublequote.  @typescript-eslint/quotes
+1:61  Error: Missing semicolon.  @typescript-eslint/semi
+12:3  Error: Missing semicolon.  @typescript-eslint/semi
+
+./pages/api/hello.ts
+2:54  Error: Strings must use doublequote.  @typescript-eslint/quotes
+2:60  Error: Missing semicolon.  @typescript-eslint/semi
+4:6  Warning: Use an `interface` instead of a `type`.  @typescript-eslint/consistent-type-definitions
+5:14  Error: Expected a semicolon.  @typescript-eslint/member-delimiter-style
+6:2  Error: Missing semicolon.  @typescript-eslint/semi
+12:25  Error: Unquoted property 'name' found.  quote-props
+12:31  Error: Strings must use doublequote.  @typescript-eslint/quotes
+12:44  Error: Missing semicolon.  @typescript-eslint/semi
+
+./pages/index.tsx
+1:29  Error: Missing semicolon.  @typescript-eslint/semi
+2:31  Error: Missing semicolon.  @typescript-eslint/semi
+3:42  Error: Missing semicolon.  @typescript-eslint/semi
+4:47  Error: Missing semicolon.  @typescript-eslint/semi
+6:23  Error: Unquoted property 'subsets' found.  quote-props
+6:41  Error: There should be no space before '}'.  @typescript-eslint/object-curly-spacing
+6:44  Error: Missing semicolon.  @typescript-eslint/semi
+122:3  Error: Missing semicolon.  @typescript-eslint/semi
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+npm ERR! Lifecycle script `build` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: ratatouille@0.0.0 
+npm ERR!   at location: /Users/bjenks/Documents/GitHub/monorepo/apps/ratatouille 
